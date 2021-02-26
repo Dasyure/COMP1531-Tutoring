@@ -29,5 +29,6 @@ for num in range(1, 11):
 print(result)
 
 ### List-comphrension ###
+# https://www.programiz.com/python-programming/list-comprehension
 my_list = [(element * 2 if element % 2 == 0 else element) for element in range(1,11)]
 print(my_list)
